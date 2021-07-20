@@ -1,0 +1,42 @@
+body{
+	background-color: #EBDEF0 ;
+	font-family: century gothic;
+}
+
+h1{
+	font-family: Muthiara -Demo Version-; 
+	color: black;
+	font-size: 35px;
+}
+
+h2{
+	color: #8E44AD;
+}
+
+h4{
+	color:#34495E ;
+}
+
+h3{
+	color: #16A085;
+}
+
+p{
+	color:#196F3D ;
+}
+
+#listas{
+	font-size: 25px;
+	font-family: Muthiara -Demo Version-;
+	color: brown;
+}
+
+
+.pie{
+	color: #34495E;
+}
+
+#tablas{
+	color: white;
+	font-size: 20px;
+}
