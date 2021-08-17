@@ -3,6 +3,12 @@
  <head>
  	<title>My primera pagina web para Coursera</title>
   <link href="style.css" rel="stylesheet" type="text/css" href="text/css">
+  <link rel="stylesheet"   href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+    <link href="style.css" rel="stylesheet" type="text/css" href="text/css">
+
 
   <style type="text/css">
 #navegador ul{
@@ -33,11 +39,44 @@
  </head>
  
  <body   bgcolor="#00ccee" text="red" link="blue" alink="red" vlink="green">
-<header align = "center">
-<img src = "imagen/titulo.png" align="right" width="100">
-  <h1>Ejercicios Del Web Site Policar S.A.</h1>
-  <h2>Nos encargamos de hacer el mejor plastico desde 1969.</h2>
+<header >
+  <header >
 
+  <img src = "imagen/titulo.png" align="right" width="100">
+
+  <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="index.html" class="pull-left visible-md visible-lg">
+            <div id="logo-img"></div>
+          </a>
+
+          <div class="navbar-brand">
+            <a href="index.html"><h1>Ejercicios Del Web Site Policar S.A.</h1></a>
+            <p>
+              <img src="images/star-k-logo.png" >
+              <span>Nos encargamos de hacer el mejor plastico desde 1969.</span>
+            </p>
+          </div>
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+        </div>
+      </div>
+    </nav>
+
+
+
+
+
+
+<img src = "imagen/titulo.png" align="right" width="100">
+  
 <div id="navegador">
 <ul>
  <li><a href="index.html"><b>Datos Personales</b> </a></li>
